@@ -27,7 +27,7 @@
                   <p class="pro-con-text">No POW or coin cap means no inbuilt inflation protection. The money supply is vulnerable to tampering, undermining long-term trust in the system</p>
                 </div>
               </div>
-              <div class="column-8 w-col w-col-4 w-col-small-4"><img src="@/assets/images/giants3.svg" width="250" height="250" alt="" class="image-8"></div>
+              <div class="column-8 w-col w-col-4 w-col-small-4"> </div>
               <div class="w-col w-col-4 w-col-small-4">
                 <div class="text-block-6">Bitcoin</div>
                 <div class="pro-con-group w-clearfix"><img src="@/assets/images/plus-green.svg" width="20" height="20" alt="" class="pro-con-icon">
