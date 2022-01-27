@@ -1,19 +1,13 @@
 <template>
   <div class="section footer py-4 font-boring bg-black text-white ">
 
-
-    <div class="container margin-center">
-           
-         
-             
-        </div>
-
+ 
         
 
     <div class="container margin-center">
 
       <div class=" grid grid-flow-col ">
-        <div class=" grid grid-flow-row text-center">
+        <div class=" grid grid-flow-row text-center px-4">
 
           <img src="@/assets/images/copyright_mfer.png" width="70%" />
           
@@ -21,7 +15,7 @@
 
           </div>
 
-        <div class=" grid grid-flow-row text-center">
+        <div class=" grid grid-flow-row text-center px-4">
 
           <h3 class="text-lg font-bold font-fun ">Community &amp; Social</h3>
 

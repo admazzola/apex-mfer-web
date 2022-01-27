@@ -22,10 +22,16 @@
           <img src="@/assets/images/blob1.png" class="absolute" style="top:-36px;left:-8px;z-index:0"></img>
            <img src="@/assets/images/blob2.png" class="absolute" style="top:-36px;right:-20px;z-index:0"></img>
 
-             <img src="@/assets/images/prettybad_wen.gif" class="absolute" style="width:140px;top:-26px;right:70px;z-index:1"></img>
+           <img src="@/assets/images/prettybad_wen.gif" class="absolute hidden lg:block" style="width:140px;top:-26px;right:70px;z-index:1"></img>
 
-           <img src="@/assets/images/gm_mfers2.gif" class="absolute" style="width:140px;top:86px;right:20px;z-index:0"></img>
+           <img src="@/assets/images/gm_mfers2.gif" class="absolute hidden lg:block" style="width:140px;top:86px;right:20px;z-index:0"></img>
          
+          <img src="@/assets/images/prettybad_wen.gif" class="absolute lg:hidden" style="width:100px;top:-26px;right:70px;z-index:1"></img>
+
+           <img src="@/assets/images/gm_mfers2.gif" class="absolute lg:hidden" style="width:100px;top:66px;right:20px;z-index:0"></img>
+         
+
+
        </div>
        <div class="pb-2">
 
@@ -84,7 +90,7 @@
        
          <div class="">
 
-              <div class=" margin-center block " style="width:400px">
+              <div class=" margin-center block " style="width:300px">
            <a href="https://discord.apexmfer.com" target="_blank">
             <div class="bg-purple-600 hover:bg-purple-700 text-white p-4 rounded block lg:mt-24" >
                <img src="@/assets/images/discord-icon.svg" width="40" height="40" class="inline " alt=""> 
