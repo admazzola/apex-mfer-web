@@ -29,7 +29,7 @@
        </div>
        <div class="pb-2">
 
-         <div class=" grid grid-flow-col px-8 md:px-24">
+         <div class=" grid grid-cols-2 px-8 md:px-24">
 
            <div>
               <img src="@/assets/images/tech_focused.png" />
@@ -76,7 +76,7 @@
 
 
      <div class="container margin-center">
-        <div class=" grid grid-flow-col px-8 md:px-24  py-8 lg:py-2">
+        <div class=" grid grid-cols-2 px-8 md:px-24  py-8 lg:py-2">
 
           <div class=" hidden lg:block ">
                  <img src="@/assets/images/find_more_alpha.png"  class="margin-center"/>
@@ -106,7 +106,7 @@
     <div class="section bg-primary border-b-4 border-black px-0 lg:px-1 py-2">
        <div class="container margin-center bg-black pt-8" style="">
          
-         <div class=" grid grid-flow-col px-8 md:px-24">
+         <div class=" grid grid-cols-2 px-8 md:px-24">
          <div class="  p-4">
              <img src="@/assets/images/punk1164_gif_filter.gif" />
          </div>
