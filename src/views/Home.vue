@@ -15,14 +15,17 @@
 
 
 
-     <div class="container margin-center">
-       <div class="hero-text w-row">
-         <div class="w-col w-col-6">
-           <h1 class="heading hidden lg:block">0xBitcoin</h1>
-           <div class="text-block-11 mt-20 lg:mt-0">PoW Mined ERC20 Currency</div>
-         </div>
-         <div class="w-col w-col-6">
-         </div>
+     <div class="container margin-center bg-gray-100" style="">
+       <div class="hero-text w-row relative" style="min-height:300px;" >
+
+         
+          <img src="@/assets/images/blob1.png" class="absolute" style="top:-36px;left:-8px;z-index:0"></img>
+           <img src="@/assets/images/blob2.png" class="absolute" style="top:-36px;right:-20px;z-index:0"></img>
+
+             <img src="@/assets/images/prettybad_wen.gif" class="absolute" style="width:140px;top:-26px;right:70px;z-index:1"></img>
+
+           <img src="@/assets/images/gm_mfers2.gif" class="absolute" style="width:140px;top:86px;right:20px;z-index:0"></img>
+         
        </div>
        <div class="div-block">
          <a href="https://www.youtube.com/embed/P_W6aHQ6qW4" target="_blank" class="button1-base w-inline-block">
