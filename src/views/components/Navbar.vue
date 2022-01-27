@@ -26,8 +26,10 @@
 
        <div class="inline-block lg:hidden  pull-right p-4"  >
 
-         <button @click="showResponsiveMenu=!showResponsiveMenu" class="flex items-right px-3 py-2 border rounded text-black border-teal-400 hover:text-white hover:border-white">
-          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+         <button @click="showResponsiveMenu=!showResponsiveMenu" class="flex items-right px-3 py-2 border text-black border-white hover:text-white hover:border-white">
+         
+          <img src="@/assets/images/menu_bars.png" style="height:40px" />
+          <i class="fas fa-caret-down "></i>
         </button>
 
         <div v-if="showResponsiveMenu" class="w-full absolute left-0 block flex-grow lg:flex lg:items-center lg:w-auto bg-gray-200" style="z-index: 10;">

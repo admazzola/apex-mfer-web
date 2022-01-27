@@ -2,6 +2,11 @@
   <nav role="navigation" class="w-full m-2 p-2 inline-block">
     <div class="w-full lg:w-auto block lg:inline-block" v-for="item in navConfig.dropdowns" :key="item.title">
     <t-dropdown  class="w-full" >
+
+
+    
+
+
       <div
         slot="trigger"
         slot-scope="{
@@ -23,7 +28,11 @@
           @keydown="keydownHandler"
         >
 
-            <span class="px-2">{{item.title}}</span> <i class="fas fa-caret-down "></i>
+            <span class="px-2 hidden">{{item.title}}</span> 
+            
+            <img src="@/assets/images/menu_bars.png" style="height:40px" />  
+            
+            <i class="fas fa-caret-down "></i>
         </button>
       </div>
 
