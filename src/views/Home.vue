@@ -2,13 +2,20 @@
 
 <div>
 
-   <div class="section bg-world px-0 lg:px-1">
+    
 
-     <div class="mb-8">
-       <Navbar />
+   <div class="section bg-primary border-b-4 border-black px-0 lg:px-1">
+ 
+     <div class=" ">
+        <Navbar         
+       />
      </div>
 
-     <div class="w-container">
+ 
+
+
+
+     <div class="container margin-center">
        <div class="hero-text w-row">
          <div class="w-col w-col-6">
            <h1 class="heading hidden lg:block">0xBitcoin</h1>
@@ -35,7 +42,7 @@
    </div>
 
    <div class="section autospacing">
-     <div class="w-container">
+     <div class="container margin-center ">
        <div class="w-row">
          <div class="w-col w-col-6 mt-4">
            <div class="intro-list">

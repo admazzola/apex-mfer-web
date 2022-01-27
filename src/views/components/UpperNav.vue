@@ -14,7 +14,7 @@
       >
         <button
           class="flex text-md  p-2 m-1 mx-2 text-gray-100 items-center pr-3 bg-transparent focus:outline-none focus:shadow-solid transition duration-150 ease-in-out border-2 border-gray-200"
-          :class="{ 'border-gray-300 bg-gray-500 text-white ': isShown }"
+          :class="{ 'border-gray-300 bg-black text-white ': isShown }"
           aria-label="User menu"
           aria-haspopup="true"
           @mousedown="mousedownHandler"
@@ -27,7 +27,7 @@
         </button>
       </div>
 
-      <div slot-scope="{ hide, blurHandler }" class="origin-top-right absolute right-0 w-56 shadow-lg text-md bg-gray-900 text-white">
+      <div slot-scope="{ hide, blurHandler }" class="origin-top-right absolute right-0 w-56 shadow-lg text-md bg-black text-white">
 
         <a
         :href="row.url"

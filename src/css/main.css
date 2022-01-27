@@ -14,6 +14,14 @@
   100% { transform: rotate(360deg); }
 }
 
+.bg-black {
+  background-color: #111;
+}
+
+.bg-primary {
+  background-color: #feee53
+}
+
 .markdown a
 {
  color: #1b366d;
@@ -21,7 +29,9 @@
  font-weight: bold;
 }
 
-
+.margin-center{
+  margin: 0 auto;
+}
 
 .origin-top-right {
   transform-origin: top right;
