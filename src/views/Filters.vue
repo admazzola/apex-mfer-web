@@ -55,7 +55,7 @@
            </div>
            <div class="py-8">
              <a href="/filters" >
-                  <img src="@/assets/images/btn_mint.png" class="margin-center" />
+                  <img src="@/assets/images/btn_coming_soon.png" class="margin-center" />
              </a>
 
            </div>
