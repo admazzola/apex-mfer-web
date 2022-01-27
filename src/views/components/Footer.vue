@@ -1,28 +1,46 @@
 <template>
-  <div class="section footer">
-    <div class="container-3 w-container">
-      <div class="w-row">
-        <div class="column-5 w-col w-col-4 w-col-small-4">
-          <h3 class="heading-3 footer">Documentation</h3>
+  <div class="section footer my-4 font-boring ">
 
-          <router-link :to="{name: 'docs'}" class="footer-link">0xBitcoin API Wiki</router-link>
-          <a href="https://github.com/0xbitcoin/white-paper" target="_blank" class="footer-link">White Paper</a>
-          <a href="https://etherscan.io/address/0xb6ed7644c69416d67b522e20bc294a9a9b405b31#code" target="_blank" class="footer-link">Contract Code</a>
-          <a href="https://github.com/EthereumCommonwealth/Auditing/issues/102" target="_blank" class="footer-link">Smart Contract Audit</a>
-          <a href="https://0xbtc.info/" target="_blank" class="footer-link">0xBTC Block Explorer</a></div>
-        <div class="column-6 w-col w-col-4 w-col-small-4">
-          <h3 class="heading-3 footer">Community &amp; Social</h3>
-          <a href="https://github.com/0xbitcoin" target="_blank" class="footer-link">0xBTC Github</a>
-          <a href="https://discordapp.com/invite/JGEqqmS" target="_blank" class="footer-link">Discord</a>
-          <a href="https://twitter.com/0xbitcoin_erc20" target="_blank" class="footer-link">Twitter</a>
-          <a href="https://www.reddit.com/r/0xbitcoin/" target="_blank" class="footer-link">Reddit</a></div>
-        <div class="column-7 w-col w-col-4 w-col-small-4">
-          <h3 class="heading-3 footer">Fun &amp; Learning</h3>
-          <a href="https://meoau.itch.io/zero-chan-learns-crypto" target="_blank" class="footer-link">Play Trav&#x27;s 0xBTC Game</a>
-            <a href="https://docs.0xbitcoin.org" target="_blank" class="footer-link">0xBTC Wiki</a> 
 
+    <div class="container margin-center">
+           
+         
+             
         </div>
 
+        
+
+    <div class="container margin-center">
+
+      <div class=" grid grid-flow-col ">
+        <div class=" grid grid-flow-row text-center">
+          
+          <h3 class="heading-3 footer font-fun">Documentation</h3>
+ 
+
+        
+          <a href="https://etherscan.io/address/0x0419732028fa499200a0e36972e4c139e98d28e1" target="_blank" class="footer-link">Smart Contract</a>
+
+          <a href="https://docs.onsecondary.com" target="_blank" class="footer-link">Official Docs</a>
+
+            <a href="https://github.com/admazzola/doodle-market" target="_blank" class="footer-link hidden ">Open Source Code</a>
+
+
+
+          </div>
+
+        <div class=" grid grid-flow-row text-center">
+
+          <h3 class="heading-3 footer font-fun ">Community &amp; Social</h3>
+
+            <a href="https://discord.onsecondary.com" target="_blank" class="footer-link">OnSecondary Discord</a>
+         
+            <a href="https://onsecondary.com" target="_blank" class="footer-link">Powered by OnSecondary</a>
+
+           
+          
+
+         </div>
       </div>
     </div>
   </div>
